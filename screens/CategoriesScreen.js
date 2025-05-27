@@ -10,7 +10,7 @@ const CategoriesScreen = ({ navigation }) => {
         title={itemData.item.title}
         color={itemData.item.color}
         onPress={() =>
-          navigation.navigate("Meals Overview", {
+          navigation.navigate("MealsOverview", {
             categoryId: itemData.item.id,
           })
         }
